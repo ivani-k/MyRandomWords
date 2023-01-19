@@ -1,6 +1,5 @@
 body {
     background: transparent;
-    /* Make it white if you need */
     padding: 0 24px;
     margin: 0;
     height: 100vh;
@@ -39,8 +38,8 @@ body {
 header {
     background-color: blue;
     /* margin-bottom: auto; */
-    padding: 10px;
-    overflow: hidden;
+    padding: 7px;
+    /* overflow: hidden; */
     min-height: 60px;
     align-items: center;
     position: sticky;
@@ -69,4 +68,17 @@ header div {
 
 .navigation a {
     color: #fff;
+}
+
+.navigation {
+    text-align: right;
+}
+
+.favorites-words {
+    display: flex;
+    font-weight: 200;
+    font-size: 2em;
+    line-height: 1.3em;
+    background: linear-gradient(180deg, rgb(45, 41, 41) 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 10%);
+    background-size: 100% 1.5em;
 }

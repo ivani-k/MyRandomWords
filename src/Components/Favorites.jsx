@@ -1,13 +1,13 @@
 const Favorites=({favorites})=> {
     return(
          <> 
-         <div id="favorites">
+         <h1 id="favorites">
            Favorites
-         </div>
-         <div>
-            <p>
-                { favorites.map(word =>(<li key={word}>{word}</li>)) }
-            </p>
+         </h1>
+         <div >
+            
+            { favorites.map(word =>(<ul className="favorites-words" key={word}>{word}</ul>)) }
+            
         </div>
         </>
     )
